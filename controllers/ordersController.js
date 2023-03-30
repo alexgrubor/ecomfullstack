@@ -74,8 +74,8 @@ export const createOrderStripe = async (req, res) => {
       line_items,
       payment_method_types: ["card"],
       mode: "payment",
-      success_url: "http://localhost:5173/cart?success=true",
-      cancel_url: "http://localhost:5173/cart?success=false",
+      success_url: "https://ecomfullstact.onrender.com/#/cart?success=true",
+      cancel_url: "https://ecomfullstact.onrender.com/#/cart?success=false",
     });
    
  
